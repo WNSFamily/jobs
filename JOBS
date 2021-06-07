@@ -1,3 +1,165 @@
-ddddddd
-COUCOU
-WARSAID
+Navigateur:
+  fullname: Navigateur
+  shortname: Nvg.
+  description: Pecher du poisson & divers
+  FullDescription:
+  - ''
+  ChatColour: GRAY
+  chat-display: job
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: ((baseincome*joblevel)/10)
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    Id: 346
+    Data: 0
+  maxDailyQuests: 3
+  Quests: {}
+  Craft:
+    Fishing_Rod:
+      experience: 2.4
+      income: 0.6
+    Conduit:
+      experience: 50
+      income: 300
+  Fish:
+    saddle:
+      experience: 1.2
+      income: 0.3
+    name_tag:
+      experience: 1.2
+      income: 0.3
+    lily_pad:
+      experience: 0.2
+      income: 0.05
+    bowl:
+      experience: 0.45
+      income: 0.225
+    leather:
+      experience: 0.8
+      income: 0.2
+    rotten_flesh:
+      experience: 0.7
+      income: 0.175
+    stick:
+      experience: 1.4
+      income: 0.35
+    string:
+      experience: 0.6
+      income: 0.15
+    bone:
+      experience: 0.4
+      income: 0.1
+    tripwire_hook:
+      experience: 2.55
+      income: 0.6375
+    bamboo:
+      experience: 0.15625
+      income: 0.015625
+    kelp:
+      experience: 0.2
+      income: 0.05
+    seagrass:
+      experience: 1.875
+      income: 0.46875
+    cod_bucket:
+      experience: 0.8
+      income: 4
+    salmon_bucket:
+      experience: 1
+      income: 5
+    pufferfish_bucket:
+      experience: 2
+      income: 10
+    tropical_fish_bucket:
+      experience: 3.6
+      income: 18
+    raw_cod:
+      experience: 1.25
+      income: 1.25
+    Raw_Salmon:
+      experience: 2.5
+      income: 2.5
+    Tropical_Fish:
+      experience: 3
+      income: 15
+    pufferfish:
+      experience: 1
+      income: 5
+    ink_sac:
+      experience: 0.6
+      income: 0.15
+    nautilus_shell:
+      experience: 6
+      income: 30
+  Kill:
+    turtle:
+      experience: 1
+      income: 0.25
+  Break:
+    tube_coral:
+      income: 0.2
+      experience: 0.8
+    tube_coral_fan:
+      income: 0.4
+      experience: 1.6
+    brain_coral:
+      income: 0.2
+      experience: 0.8
+    brain_coral_fan:
+      income: 0.4
+      experience: 1.6
+    bubble_coral:
+      income: 0.2
+      experience: 0.8
+    bubble_coral_fan:
+      income: 0.4
+      experience: 1.6
+    fire_coral:
+      income: 0.2
+      experience: 0.8
+    fire_coral_fan:
+      income: 0.4
+      experience: 1.6
+    horn_coral:
+      income: 0.2
+      experience: 0.8
+    horn_coral_fan:
+      income: 0.4
+      experience: 1.6
+    tube_coral_block:
+      experience: 1.2
+      income: 0.3
+    brain_coral_block:
+      experience: 1.2
+      income: 0.3
+    bubble_coral_block:
+      experience: 1.2
+      income: 0.3
+    fire_coral_block:
+      experience: 1.2
+      income: 0.3
+    horn_coral_block:
+      experience: 1.2
+      income: 0.3
+    turtle_egg:
+      experience: 1
+      income: 0.25
+    sea_pickle:
+      income: 0.125
+      experience: 0.5
+  permissions:
+    zonecarrier:
+      value: true
+      permission: whynotsurvivejobsnavigateur
+      level: 0
+    kitcarrier:
+      permission: essentials.kits.navigateur
+      value: true
+      level: 0
+  cmd-on-join:
+  - title [name] title []
+  - title [name] subtitle ["",{"text":"Vous venez de vous spécialiser dans la pêche.","color":"gray","italic":true}]
