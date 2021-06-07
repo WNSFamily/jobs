@@ -1,4 +1,3 @@
-Navigateur:
   fullname: Navigateur
   shortname: Nvg.
   description: Pecher du poisson & divers
@@ -47,7 +46,7 @@ Navigateur:
     stick:
       experience: 1.4
       income: 0.35
-    string:
+    string:oui
       experience: 0.6
       income: 0.15
     bone:
