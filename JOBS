@@ -59,42 +59,24 @@ Navigateur:
     bamboo:
       experience: 13.63
       income: 6.82
-    kelp:
-      experience: 
-      income: 0.05
-    seagrass:
-      experience: 1.875
-      income: 0.46875
-    cod_bucket:
-      experience: 0.8
-      income: 4
-    salmon_bucket:
-      experience: 1
-      income: 5
-    pufferfish_bucket:
-      experience: 2
-      income: 10
-    tropical_fish_bucket:
-      experience: 3.6
-      income: 18
     raw_cod:
-      experience: 1.25
-      income: 1.25
+      experience: 13.52
+      income: 6.76
     Raw_Salmon:
-      experience: 2.5
-      income: 2.5
+      experience: 21.67
+      income: 10.83
     Tropical_Fish:
-      experience: 3
-      income: 15
+      experience: 27.03
+      income: 13.52
     pufferfish:
-      experience: 1
-      income: 5
+      experience: 24.46
+      income: 12.23
     ink_sac:
-      experience: 0.6
-      income: 0.15
+      experience: 13.74
+      income: 6.87
     nautilus_shell:
-      experience: 6
-      income: 30
+      experience: 67.82
+      income: 27.13
   Kill:
     turtle:
       experience: 1
@@ -151,6 +133,12 @@ Navigateur:
     sea_pickle:
       income: 0.125
       experience: 0.5
+    kelp:
+      experience: 
+      income: 0.05
+    seagrass:
+      experience: 1.875
+      income: 0.46875
   permissions:
     zonecarrier:
       value: true
