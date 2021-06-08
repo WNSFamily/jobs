@@ -27,40 +27,40 @@ Navigateur:
       income: 300
   Fish:
     saddle:
-      experience: 1.2
-      income: 0.3
+      experience: 67.82
+      income: 27.13
     name_tag:
-      experience: 1.2
-      income: 0.3
+      experience: 67.82
+      income: 27.13
     lily_pad:
-      experience: 0.2
-      income: 0.05
+      experience: 13.56
+      income: 27.13
     bowl:
-      experience: 0.45
-      income: 0.225
+      experience: 13.63
+      income: 6.82
     leather:
-      experience: 0.8
-      income: 0.2
+      experience: 13.63
+      income: 6.82
     rotten_flesh:
-      experience: 0.7
-      income: 0.175
+      experience: 13.63
+      income: 6.82
     stick:
-      experience: 1.4
-      income: 0.35
+      experience: 13.7
+      income: 6.85
     string:
-      experience: 0.6
-      income: 0.15
+      experience: 13.7
+      income: 6.85
     bone:
-      experience: 0.4
-      income: 0.1
+      experience: 13.63
+      income: 6.82
     tripwire_hook:
-      experience: 2.55
-      income: 0.6375
+      experience: 13.63
+      income: 6.82
     bamboo:
-      experience: 0.15625
-      income: 0.015625
+      experience: 13.63
+      income: 6.82
     kelp:
-      experience: 0.2
+      experience: 
       income: 0.05
     seagrass:
       experience: 1.875
