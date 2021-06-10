@@ -25,6 +25,18 @@ Navigateur:
     Conduit:
       experience: 50
       income: 300
+    prismarine:
+      experience: 1.2
+      income: 0.3
+    prismarine_bricks:
+      experience: 3.75
+      income: 0.675
+    dark_prismarine:
+      experience: 3
+      income: 0.75
+    sea_lantern:
+      experience: 3
+      income: 1.05
   Fish:
     saddle:
       experience: 67.82
